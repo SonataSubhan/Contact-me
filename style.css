@@ -100,3 +100,20 @@ body {
     padding-top: 20px;
     display: none;
 }
+
+a:link {
+    text-decoration: none;
+}
+
+a:link:hover {
+
+    border-bottom-width: 0px;
+    animation-name: link;
+    border-bottom: 3px solid saddlebrown;
+    animation-duration: 1s;
+
+}
+
+a:visited {
+    color: rgb(151, 2, 2);
+}
