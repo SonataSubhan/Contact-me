@@ -12,6 +12,7 @@ btn1.onclick = function one() {
     btn1.style.backgroundColor = "white";
     btn2.style.backgroundColor = "#6e4c41";
     btn3.style.backgroundColor = "#6e4c41";
+    btn1.style.border = "none";
 
 }
 btn2.onclick = function two() {
@@ -21,6 +22,7 @@ btn2.onclick = function two() {
     btn1.style.backgroundColor = "#6e4c41";
     btn2.style.backgroundColor = "white";
     btn3.style.backgroundColor = "#6e4c41";
+    btn2.style.border = "none";
 }
 
 
@@ -31,4 +33,5 @@ btn3.onclick = function three() {
     btn1.style.backgroundColor = "#6e4c41";
     btn2.style.backgroundColor = "#6e4c41";
     btn3.style.backgroundColor = "white";
+    btn3.style.border = "none";
 }
