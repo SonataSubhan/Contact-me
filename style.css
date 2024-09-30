@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -58,7 +62,11 @@ body {
 }
 
 .btn2:active {
-    background-color: aliceblue;
+    background-color: white;
+}
+
+.btn2:nth-child(1) {
+    background-color: white;
 }
 
 .div2 {
@@ -87,7 +95,9 @@ body {
     flex-grow: 1;
 }
 
-.display1 {}
+.display1 {
+    display: run-in;
+}
 
 .display2 {
     display: none;
@@ -105,12 +115,14 @@ a:link {
     text-decoration: none;
 }
 
+
 a:link:hover {
 
     border-bottom-width: 0px;
     animation-name: link;
     border-bottom: 3px solid saddlebrown;
     animation-duration: 1s;
+
 
 }
 
