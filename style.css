@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.div1 {
+    width: 100vw;
+    background-color: #6e4c41;
+    height: 60vh;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 0;
+
+}
+
+.pp {
+    object-fit: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+.add-btn {
+    width: 130px;
+    height: 35px;
+    border: 3px solid white;
+    background-color: #6e4c41;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    margin-top: 0;
+    border-radius: 5px;
+}
+
+.buttons {
+    margin-top: 57px;
+}
+
+.btn2 {
+    width: 100px;
+    height: 25px;
+    border: none;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: #6e4c41;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+.btn2:active {
+    background-color: aliceblue;
+}
+
+.div2 {
+
+    width: 100vw;
+    height: 40vh;
+    padding-top: 20px;
+}
+
+.phase {
+    width: 80vw;
+    height: 50px;
+
+    margin: auto;
+    display: flex;
+
+}
+
+
+
+.icon {
+    flex-grow: 0.2;
+}
+
+.information {
+    flex-grow: 1;
+}
+
+.display1 {
+    display: none;
+}
+
+.display2 {
+    display: none;
+}
+
+.display3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
